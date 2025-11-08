@@ -1,0 +1,9 @@
+# Place E2E tests here
+# Example:
+# import { test, expect } from "@playwright/test";
+#
+# test("homepage loads", async ({ page }) => {
+#   await page.goto("/");
+#   await expect(page).toHaveTitle(/Next.js Boilerplate/);
+# });
+
