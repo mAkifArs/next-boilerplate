@@ -15,6 +15,59 @@ A production-ready Next.js boilerplate with TypeScript, Zustand, Chakra UI, and 
 - 🔒 **Security headers** configured
 - ✅ **ESLint** + **Prettier** for code quality
 
+## Using This Template
+
+### Option 1: GitHub Template (Recommended)
+
+1. Go to your GitHub repository
+2. Click **Settings** → **Template repository**
+3. Check **Template repository**
+4. When starting a new project, click **Use this template** → **Create a new repository**
+
+### Option 2: Clone and Setup
+
+```bash
+# Clone the repository
+git clone https://github.com/mAkifArs/next-boilerplate.git my-new-project
+cd my-new-project
+
+# Remove the old git history
+rm -rf .git
+
+# Update package.json with your project name
+# Edit package.json and change "name" field
+
+# Initialize new git repository
+git init
+git add .
+git commit -m "Initial commit"
+
+# Install dependencies
+bun install
+
+# Start development
+bun dev
+```
+
+### Option 3: Use the Setup Script
+
+```bash
+# Make script executable
+chmod +x scripts/create-project.sh
+
+# Create new project
+./scripts/create-project.sh my-new-project
+
+# Navigate to new project
+cd ../my-new-project
+
+# Install dependencies
+bun install
+
+# Start development
+bun dev
+```
+
 ## Getting Started
 
 ### Prerequisites
