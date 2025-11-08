@@ -1,9 +1,10 @@
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
 
-export function middleware(request: NextRequest) {
+export function middleware(_request: NextRequest) {
   // Add your middleware logic here
   // Example: authentication, redirects, etc.
+  // Prefix parameter with _ to indicate it's intentionally unused
 
   return NextResponse.next();
 }

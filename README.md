@@ -14,7 +14,6 @@ A production-ready Next.js boilerplate with TypeScript, Zustand, Chakra UI, and 
 - 📦 **bun** for package management
 - 🔒 **Security headers** configured
 - ✅ **ESLint** + **Prettier** for code quality
-- 🚀 **GitHub Actions** CI/CD
 
 ## Getting Started
 
@@ -141,4 +140,3 @@ This project uses Chakra UI for accessible components. Custom components can be 
 ## License
 
 MIT
-
